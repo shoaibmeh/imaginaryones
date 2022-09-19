@@ -1,0 +1,115 @@
+.lp-main{
+    z-index: 2;
+    background: #fff2f2;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    height: 750px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.lp-image img{
+    margin-top: 18%;
+    width: 300px;
+    
+}
+.button{
+    padding: 20px 30px 20px 30px;
+    border-radius: 28px;
+    border-color: #8459ff;
+    font-family: filson-soft,Segoe UI,Helvetica,sans-serif;
+    letter-spacing: -.5px;
+    min-width: 190px;
+    background: #8459ff;
+    color: #fff;
+    font-size: 1.125rem;
+    box-shadow: none;
+    margin-top: 30px;
+    cursor: pointer;
+    
+    
+}
+.red-riding{
+    position: absolute;
+    left: 160px;
+    top: 70px;
+    width: 220px;
+    /* rotate: -15deg; */
+    
+}
+.red-riding1{
+    position: absolute;
+    right: 170px;
+    top: 0px;
+    width: 200px;
+    /* rotate: 15deg; */
+    
+}
+.red-riding2{
+    position: absolute;
+    left: 280px;
+    bottom: 70px;
+    width: 220px;
+    /* rotate: 15deg; */
+    
+}
+.red-riding3{
+    position: absolute;
+    right: 280px;
+    bottom: 70px;
+    width: 180px;
+    /* rotate: 15deg; */
+    
+}
+.ballblue{
+    width: 200px;
+    position: absolute;
+    top: -80px;
+    left: 650px;
+    filter: blur(6px);
+  -webkit-filter: blur(6px);
+}
+.ballpurple{
+    width: 330px;
+    position: absolute;
+    bottom: -120px;
+    right: -140px;
+    filter: blur(6px);
+  -webkit-filter: blur(6px);
+}
+.ballbeige{
+    width: 260px;
+    position: absolute;
+    bottom: -100px;
+    left: -80px;
+    filter: blur(6px);
+  -webkit-filter: blur(6px);
+}
+.ballpink{
+    width: 190px;
+    position: absolute;
+    bottom: 350px;
+    right: 40px;
+}
+.ballgreen{
+    width: 180px;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+.ballyellow{
+    width: 100px;
+    position: absolute;
+    bottom: 60px;
+    right: 570px;
+}
+.box {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #8459ff;
+  }

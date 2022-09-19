@@ -1,0 +1,236 @@
+.banner{
+    
+    width: 100%;
+    height: 100%;
+}
+.what{
+    min-height: 100vh; 
+    min-height: calc(var(--ovh, 1vh)*100); 
+    background: #8459ff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    overflow: hidden; 
+     position: relative;
+    padding: 50px 0;
+}
+.main{
+    position: relative;
+   
+}
+.v-btn{
+background-color: black;
+color: white;
+padding: 15px 20px;
+border-radius: 40px;
+text-align: center;
+border-color: black;
+position: absolute;
+bottom: 120px;
+right: 30px;
+
+
+opacity: 0.5;
+}
+.v-btn:hover{
+opacity: 1;
+cursor: pointer !important;
+}
+.m-ballpurple{
+    width: 500px;
+    position: absolute;
+    bottom: -250px;
+    right: -120px;
+    
+}
+.m-ballbeige{
+    width: 340px;
+    position: absolute;
+    /* bottom: -100px; */
+    left: -130px
+}
+.what-1{
+    font-family: monospace;
+    font-weight: 600;
+    color: #fff;
+    font-size: 6rem;
+    line-height: 1;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    user-select: none;
+}
+.what-2{
+    font-family: monospace;
+    font-weight: 600;
+    color: #fd0;
+    font-size: 6rem;
+    line-height: 1;
+    text-align: left;
+    margin: 0px;
+    user-select: none;
+}
+.what-3{
+    /* font-family: monospace; */
+    /* font-weight: 600; */
+    color: #fff;
+    font-size: 26px;
+    line-height: 1;
+    padding-top: 10px;
+    margin: 0px;
+    text-align: left;
+    letter-spacing: 2px;
+    user-select: none;
+}
+.text{
+    width: 65%;
+    justify-content: left;
+    
+}
+.text span {
+    background-color: #272727;
+    padding: 25px 40px;
+    color: white;
+    border-radius: 40px;
+    float: left;
+    margin-top: 30px;
+    font-size: 16px;
+
+}
+.section-3{
+    display: flex;
+    width: 100%;
+}
+.section-3-left{
+    width: 33%;
+    height: 60vh;
+    background: #e3a8ff;
+    box-sizing: border-box;
+}
+.section-3-left>h1{
+   font-size: 55px;
+   text-align: left;
+   margin: 17px;
+   padding-left: 4rem ;
+   /* font-family: Arial, Helvetica, sans-serif; */
+   font-weight: 800;
+}
+.section-3-left>h1>span{
+    background-color: #fd0;
+    -webkit-transform: rotateX(180deg);
+    padding: 7px 25px;
+}
+.section-3-left:nth-child(1){
+    padding-top: 6rem;
+}
+.section-3-right{
+    width: 67%;
+    height: 60vh;
+    background: #fff1e4;
+    text-align: center;
+}
+.section-4{
+    width: 100%;
+    display: flex;
+    height: 30vh;
+}
+.section-4-one{
+    width: 33%;
+    background-color:#8459ff;
+    text-align: center;
+}
+.section-4-one>h1{
+    font-size: 90px;
+    font-weight: 900;
+    /* padding-top:1px; */
+    letter-spacing: 5px;
+    background-image: url(../../img/rainbow-circle.png);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-style: italic;
+    
+}
+.section-4-two{
+    width: 17%;
+    background-color:#ffdbd2;
+}
+.section-4-two>img{
+    width: 100%;
+    height: 30vh;
+}
+.section-4-three{
+    width: 50%;
+    background-color:#fd0;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+    
+}
+.section-5{
+    min-height: 95vh;
+    min-height: calc(var(--ovh, 1vh)*95);
+    background: #eefff7;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    padding: 140px 0;
+}
+.Navbar{
+    position: fixed !important;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: transparent !important;
+    /* background: rgba(0,0,0,.23); */
+    
+}
+/* .navbar{
+    position: fixed;
+    top: 20px;
+    z-index: 1;
+    background: rgba(0,0,0,.17);
+   
+} */
+.navbar-width{
+    width: 100%;
+}
+
+.why-1{
+    font-family: monospace;
+    font-weight: 600;
+    color: #8459ff;
+    font-size: 6rem;
+    line-height: 1;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    user-select: none;
+}
+.why-2{
+    font-family: monospace;
+    font-weight: 600;
+    color: #fd0;
+    font-size: 6rem;
+    line-height: 1;
+    text-align: left;
+    margin: 0px;
+    user-select: none;
+}
+.why-3{
+    /* font-family: monospace; */
+    /* font-weight: 600; */
+    color: #272727 ;
+    font-size: 20px;
+    line-height: 1;
+    padding-top: 30px;
+    margin: 0px;
+    text-align: left;
+    letter-spacing: 2px;
+    user-select: none;
+}
